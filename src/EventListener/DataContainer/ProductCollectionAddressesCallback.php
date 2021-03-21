@@ -80,7 +80,7 @@ class ProductCollectionAddressesCallback
             'id' => $address->id,
             'act' => 'edit',
             'ref' => $this->requestStack->getCurrentRequest()->attributes->get('_contao_referer_id'),
-            'rt' => $this->csrfTokenManager->getToken($this->csrfTokenName),
+            'rt' => $this->csrfTokenManager->getToken($this->csrfTokenName)->getValue(),
         ]);
 
         $editLabel = sprintf($this->translator->trans('MSC.editSelected', [], 'contao_default'), $address->id);
