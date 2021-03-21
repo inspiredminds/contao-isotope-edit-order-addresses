@@ -6,6 +6,5 @@ services:
             $csrfTokenManager: '@contao.csrf.token_manager'
             $csrfTokenName: '%contao.csrf_token_name%'
     
-    InspiredMinds\ContaoIsotopeEditOrderAddresses\:
-        resource: ../../
-        exclude: ../../{ContaoManager,DependencyInjection,Resources}
+    InspiredMinds\ContaoIsotopeEditOrderAddresses\EventListener\DataContainer\ProductCollectionAddressesCallback:
+        public: true
