@@ -1,6 +1,6 @@
 {
     "name": "inspiredminds/contao-isotope-edit-order-addresses",
-    "description": "Allows to edit the billing and shipping address of a Contao Isotope order.",
+    "description": "Allows the billing and shipping addresses of a Contao Isotope order to be edited.",
     "type": "contao-bundle",
     "license": "LGPL-3.0-or-later",
     "homepage": "https://github.com/inspiredminds/contao-isotope-edit-order-addresses",
