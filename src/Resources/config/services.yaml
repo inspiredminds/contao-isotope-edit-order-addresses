@@ -8,3 +8,5 @@ services:
     
     InspiredMinds\ContaoIsotopeEditOrderAddresses\EventListener\DataContainer\ProductCollectionAddressesCallback:
         public: true
+
+    InspiredMinds\ContaoIsotopeEditOrderAddresses\EventListener\DataContainer\RemoveEditButtonsCallback: ~
